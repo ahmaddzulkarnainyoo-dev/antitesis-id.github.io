@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Antitesis.id'
 theme = 'ananke'
 
-# Pastiin Hugo tau dia harus nyari tema di folder 'themes'
-themesDir = 'themes'
+# Tambahin ini biar dia gak nyasar nyari CSS
+relativeURLs = true
 canonifyURLs = true
-relativeURLs = false
