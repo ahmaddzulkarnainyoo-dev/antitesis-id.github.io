@@ -1,4 +1,8 @@
 baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
-languageCode = 'id-id'
+languageCode = 'id'
 title = 'Antitesis.id'
 theme = 'ananke'
+
+[params]
+  description = 'Media kritis dan analitis'
+  background_color_class = 'bg-black'
