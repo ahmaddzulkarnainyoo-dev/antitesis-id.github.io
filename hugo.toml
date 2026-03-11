@@ -5,3 +5,5 @@ theme = 'ananke'
 
 # Pastiin Hugo tau dia harus nyari tema di folder 'themes'
 themesDir = 'themes'
+canonifyURLs = true
+relativeURLs = false
