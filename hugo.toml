@@ -1,5 +1,5 @@
 baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
-languageCode = 'id'
+languageCode = 'en-us'
 title = 'Antitesis.id'
 theme = 'ananke'
 
