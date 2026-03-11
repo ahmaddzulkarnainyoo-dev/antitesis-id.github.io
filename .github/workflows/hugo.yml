@@ -1,7 +1,7 @@
 - name: Build with Hugo
         run: |
           rm -rf public
-          hugo --gc --minify --environment productionname: Deploy Hugo site to Pages
+          hugo --gc --minify
 
 on:
   push:
