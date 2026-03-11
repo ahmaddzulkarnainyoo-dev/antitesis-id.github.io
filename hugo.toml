@@ -1,8 +1,11 @@
 baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
-languageCode = 'en-us'
+languageCode = 'id-id'
 title = 'Antitesis.id'
 theme = 'ananke'
 
 [params]
-  description = 'Media kritis dan analitis'
-  background_color_class = 'bg-black'
+  favicon = ""
+  description = "Media Antitesis - Filsafat, Teknologi, dan Literasi"
+  # Ini biar CSS-nya kepanggil beneran
+  custom_css = []
+  body_classes = "item-center"
