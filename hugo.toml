@@ -1,11 +1,7 @@
 baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
-languageCode = 'id-id'
+languageCode = 'en-us'
 title = 'Antitesis.id'
 theme = 'ananke'
+
+# Pastiin Hugo tau dia harus nyari tema di folder 'themes'
 themesDir = 'themes'
-[params]
-  favicon = ""
-  description = "Media Antitesis - Filsafat, Teknologi, dan Literasi"
-  # Ini biar CSS-nya kepanggil beneran
-  custom_css = []
-  body_classes = "item-center"
