@@ -2,7 +2,7 @@ baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
 languageCode = 'id-id'
 title = 'Antitesis.id'
 theme = 'ananke'
-
+themesDir = 'themes'
 [params]
   favicon = ""
   description = "Media Antitesis - Filsafat, Teknologi, dan Literasi"
