@@ -1,4 +1,4 @@
 baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
 languageCode = 'id-id'
 title = 'Antitesis.id'
-theme = 'ananke'
+theme = 'ananke/ananke'
