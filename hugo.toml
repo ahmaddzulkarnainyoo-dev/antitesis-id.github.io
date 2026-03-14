@@ -1,5 +1,7 @@
-baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/'
+baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/antitesis-id.github.io/'
 languageCode = 'en-us'
 title = 'Antitesis.id'
 theme = 'ananke'
 
+[params]
+  custom_css = []
