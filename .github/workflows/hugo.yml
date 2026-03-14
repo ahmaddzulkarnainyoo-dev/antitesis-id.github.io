@@ -32,7 +32,7 @@ jobs:
 
       - name: Build with Hugo
         run: |
-          hugo --gc --minify --baseURL "https://ahmaddzulkarnainyoo-dev.github.io/"
+          hugo --gc --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
