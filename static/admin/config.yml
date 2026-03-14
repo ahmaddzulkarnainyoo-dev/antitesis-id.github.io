@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: ahmaddzulkarnainyoo-dev/antitesis-id.github.io # Ganti ini kalau nama repo lo beda
+  repo: ahmaddzulkarnainyoo-dev/antitesis-id.github.io
   branch: main
 
-media_folder: "static/images" # Tempat admin upload gambar
+media_folder: "static/images"
 public_folder: "/images"
 
 collections:
