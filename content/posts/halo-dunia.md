@@ -1,10 +1,10 @@
 ---
 title: "Selamat Datang di Antitesis"
-date: 2026-03-11
-draft: false
+date: 2026-03-11T00:00:00+00:00
+featured_image: "/images/bg-filsafat.jpg"
 ---
 
-### Halo Dunia!
-Ini adalah tulisan pertama gue di **Antitesis Media**. Akhirnya setelah drama panjang, website ini mulai bernafas juga. 
+### melawan arus, menyuarakan kebenaran.
 
-Gue bakal mulai bahas banyak hal di sini, dari filsafat sampai teknologi.
+
+media yang melawan arus, kirim berita ke @bayu.padang
