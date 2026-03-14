@@ -3,6 +3,3 @@ languageCode = 'en-us'
 title = 'Antitesis.id'
 theme = 'ananke'
 
-# Tambahin ini biar dia gak nyasar nyari CSS
-relativeURLs = true
-canonifyURLs = true
