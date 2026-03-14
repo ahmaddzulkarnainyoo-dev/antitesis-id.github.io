@@ -30,6 +30,12 @@ jobs:
           rm -rf themes/ananke
           git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 
+      - name: Install Theme Manually
+        run: |
+          mkdir -p themes
+          rm -rf themes/ananke
+          git clone --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
       - name: Build with Hugo
         run: |
           hugo --gc --minify --baseURL "https://ahmaddzulkarnainyoo-dev.github.io/antitesis-id.github.io/"
