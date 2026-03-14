@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -24,22 +22,17 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Force Clone Theme
+      - name: Clean and Install Theme
         run: |
-          mkdir -p themes
-          rm -rf themes/ananke
-          git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-
-      - name: Install Theme Manually
-        run: |
-          mkdir -p themes
-          rm -rf themes/ananke
+          rm -rf themes
+          mkdir themes
           git clone --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+          rm -f go.mod go.sum
 
       - name: Build with Hugo
         run: |
-          hugo --gc --minify --baseURL "https://ahmaddzulkarnainyoo-dev.github.io/antitesis-id.github.io/"
-
+          hugo --gc --minify
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -52,4 +45,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
