@@ -1,4 +1,6 @@
-baseURL = 'https://ahmaddzulkarnainyoo-dev.github.io/antitesis-id.github.io/'
+baseURL = 'https://antitesis-id.netlify.app/'
+[assetDir]
+  render = true
 languageCode = 'en-us'
 title = 'Antitesis.id'
 theme= 'ananke'
