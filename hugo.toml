@@ -1,12 +1,10 @@
 baseURL = 'https://antitesis-id.netlify.app/'
-[assetDir]
-  render = true
 languageCode = 'en-us'
 title = 'Antitesis.id'
-theme= 'ananke'
 
 [params]
-  custom_css = []
+  background_color_class = "bg-black"
+  featured_image = "/images/head.jpg"
 [menu]
   [[menu.main]]
     name = "Home"
@@ -28,4 +26,8 @@ theme= 'ananke'
     name = "Tentang Kami"
     url = "/about/"
     weight = 5
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+    
 
