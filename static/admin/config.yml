@@ -1,16 +1,16 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main # Pastiin ini branch utama lo
 
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "posts"
-    label: "Berita / Artikel"
+  - name: "post"
+    label: "Postingan Berita"
     folder: "content/posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
       - {label: "Tanggal", name: "date", widget: "datetime"}
