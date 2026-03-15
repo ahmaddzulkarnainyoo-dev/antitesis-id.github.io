@@ -1,18 +1,19 @@
 backend:
-  name: git-gateway
-  branch: main # Pastiin ini branch utama lo
+  name: github
+  repo: ahmaddzulkarnainyoo-dev/antitesis-id.github.io # Pastiin ini nama repo lo
+  branch: main
 
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "post"
-    label: "Postingan Berita"
+  - name: "posts"
+    label: "Berita"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
       - {label: "Tanggal", name: "date", widget: "datetime"}
-      - {label: "Gambar Utama", name: "featured_image", widget: "image", required: false}
+      - {label: "Gambar Header", name: "featured_image", widget: "image", required: false}
       - {label: "Isi Berita", name: "body", widget: "markdown"}
