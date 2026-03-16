@@ -5,7 +5,7 @@ theme = 'ananke'
 
 [params]
   background_color_class = "bg-black"
-  featured_image = "/images/logo.png"
+  featured_image = "https://antitesisid.netlify.app/images/logo.png"
 [menu]
   [[menu.main]]
     name = "Home"
