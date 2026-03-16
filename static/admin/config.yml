@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: ahmaddzulkarnainyoo-dev/antitesis-id.github.io # Pastiin ini nama repo lo
   branch: main
 
