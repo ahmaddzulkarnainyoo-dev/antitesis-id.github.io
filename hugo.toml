@@ -4,7 +4,6 @@ title = 'Antitesis.id'
 theme = 'ananke'
 
 [params]
- [params]
   # background_color_class = "bg-black" # Matikan warna hitam
   featured_image = "images/bg-filsafat.jpg" # Pastiin logo lo ada di folder images
 [menu]
