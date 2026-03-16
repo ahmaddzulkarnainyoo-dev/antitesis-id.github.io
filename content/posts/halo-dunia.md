@@ -1,10 +1,12 @@
 ---
-title: Selamat Datang di Antitesis
-date: 2026-03-11T00:00:00+00:00
-featured_image: ""
+title: "Antitesis.id"
+date: 2026-03-17T02:41:17+07:00
+draft: false
+# TAMBAHIN INI:
+featured_image: "/images/bg-filsafat.jpg" 
 ---
 
-### melawan arus, menyuarakan kebenaran.
+melawan arus, menyuarakan kebenaran.
 
 
 media yang melawan arus, kirim berita ke @bayu.padang
