@@ -3,7 +3,7 @@ title: "Antitesis.id"
 date: 2026-03-17T02:41:17+07:00
 draft: false
 # TAMBAHIN INI:
-featured_image: "/images/bg-filsafat.jpg" 
+featured_image: "" 
 ---
 
 melawan arus, menyuarakan kebenaran.
