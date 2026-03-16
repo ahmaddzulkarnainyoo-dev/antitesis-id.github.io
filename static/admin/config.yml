@@ -16,4 +16,6 @@ collections:
       - {label: "Judul", name: "title", widget: "string"}
       - {label: "Tanggal", name: "date", widget: "datetime"}
       - {label: "Gambar Header", name: "featured_image", widget: "image", required: false}
+      - {label: "Kolom/Kategori", name: "categories", widget: "select", options: ["Politik", "Hukum", "Pendidikan", "Tentang Kami"]}
       - {label: "Isi Berita", name: "body", widget: "markdown"}
+    
